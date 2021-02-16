@@ -15,8 +15,10 @@
             {% csrf_token %}
                 <input type="submit" value="Submit">
             </form>
+            <br> <br>
+            <img src={{coverArt}} alt="imge"> <br> <br>
             This is my movie title: {{movieName}} <br> <br>
-            Based on IMDB standard, this movie would be rated: {{MovieRating}}%
+            Based on IMDB standard, this movie would be rated: {{MovieRating}}/10
         </p>
 
     </div>
